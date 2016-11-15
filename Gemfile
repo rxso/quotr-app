@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add the Rails 12factor Gem
+gem 'rails_12factor', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
@@ -37,4 +39,3 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-

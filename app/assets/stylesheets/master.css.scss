@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -13,7 +15,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: #ff2247;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -51,7 +53,7 @@
 }
 
 .next-quote {
-  color: #f84342;
+  color: #ff2247;
   font-family: "Bungee", Helvetica, sans-serif;
   font-size: 20px;
 }
@@ -81,5 +83,10 @@ h1 {
 
 h2 {
   font-family: "Bungee", Helvetica, sans-serif;
-  color: #A9CCE3;
+  color: #ff2247;
+}
+
+h3 {
+  font-family: "Pacifico", Helvetica, sans-serif;
+  color: #ff2247;
 }

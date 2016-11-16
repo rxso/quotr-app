@@ -6,7 +6,10 @@ class QuotesController < ApplicationController
     @quote = Quote.new
   end
   def create
-    Quote.create(quote_params)
+    @quote = Quote.create(quote_params)
+    if @quote.invalid?
+      flash[:error] = '<h2> Awww snap. Something went wrong! </h2> <h3> Your quote was not added. Please try again.'
+    end
     redirect_to root_path
   end
   private

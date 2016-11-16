@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -26,8 +29,8 @@
 }
 
 .slogan {
-  color: #000000;
-  font-family: Helvetica;
+  color: #F4D03F;
+  font-family: "Alfa Slab One", Helvetica, Sans-serif;
   padding-top: 26px;
 }
 
@@ -36,9 +39,27 @@
 }
 
 .links a {
-  color: #000000;
+  color: #58D68D;
   font-size: 25px;
+  font-family: "Bungee", Helvetica, Sans-serif;
   border-bottom: 1px solid #dfdfdf;
+}
+
+.footer {
+  font-family: "Bungee", Helvetica, sans-serif;
+  padding-top: 20px;
+}
+
+.next-quote {
+  color: #f84342;
+  font-family: "Bungee", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.footer-blurb {
+  font-family: "Bungee", Helevetica, sans-serif;
+  text-align: right;
+  font-size: 10px;
 }
 
 header {
@@ -47,4 +68,14 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: "Libre Baskerville", Helvetica, serif;
+  color: #34495E;
+}
+
+h2 {
+  font-family: "Bungee", Helvetica, sans-serif;
+  color: #A9CCE3;
 }

@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="col-xs-4 slogan">
-      Quotes to Make You Think About Your World
+      Quotes to Make You Think About the World
     </div>
     <div class="col-xs-5 links">
       <%= link_to 'Contribute', '#' %>
@@ -29,6 +29,17 @@
   <br class="clear" />
 
 <%= yield %>
+
+<footer class="footer">
+      <div class="container">
+        <div class="col-xs-6">
+          <%= link_to "Next Quote", "#", class: "next-quote" %>
+        </div>
+        <div class="col-xs-6 footer-blurb">
+          Built by <a href="https://github.com/rxso"> RXSO </a><br / />
+        </div>
+      </div>
+</footer>
 
 </body>
 </html>

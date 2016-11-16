@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -38,6 +39,7 @@
 
 .links {
   padding-top: 26px;
+  padding-left: 10px;
 }
 
 .links a {
@@ -89,4 +91,10 @@ h2 {
 h3 {
   font-family: "Pacifico", Helvetica, sans-serif;
   color: #ff2247;
+}
+
+p {
+  font-family: "Arvo", Helvetica, sans-serif;
+  color: #66b2b2;
+  font-size: 24px;
 }

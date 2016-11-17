@@ -32,20 +32,20 @@
    <!-- Modal -->
    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
      <div class="modal-dialog">
-       <div class="modal-content">
+       <div class="modal-content controllers">
          <div class="modal-header">
            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-           <h4 class="modal-title" id="myModalLabel">Make A Contribution</h4>
+           <h4 class="modal-title" id="myModalLabel">Add A Quote</h4>
          </div>
          <%= simple_form_for Quote.new do |f| %>
-          <div class="modal-body">
-             <%= f.input :saying, label: "Add A Bit of Wisdom Min. 50 Characters" %>
+          <div class="modal-body col-xs-12">
+             <%= f.input :saying, :as => :text, :input_html => {:style=> 'width: 100%;', :rows => 4}, label: "A Bit of Wisdom" %>
              <br />
-             <%= f.input :author, label: "Tell the World Who Said It" %>
+             <%= f.input :author, :as => :text, :input_html => {:style=> 'width: 100%;', :rows => 2}, label: "Who Said It" %>
            </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <%= f.submit 'Quote Me!', class: 'btn btn-danger' %>
+            <%= f.submit 'Submit', class: 'btn btn-danger' %>
           </div>
           <% end %>
          </div>

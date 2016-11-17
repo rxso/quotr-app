@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Arvo:700');
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -72,12 +72,19 @@
 
 .modal {
   font-family: "Arvo", Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
   color: #34495E;
 }
 
+.modal-title {
+  font-family: "Bungee", Helvetica, sans-serif;
+  text-align: center;
+}
 
+.modal-body {
+  font-family: "Arvo", Helvetica, sans-serif;
+}
 
 header {
   border-top: 9px solid #222222;

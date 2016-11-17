@@ -21,7 +21,7 @@
     height: 100px;
     margin: 10px 10px;
     text-align: center;
-    color: #F4D03F;
+    color: #fcd116;
     font-size: 20px;
     line-height: 16px;
     cursor: pointer;
@@ -31,7 +31,7 @@
 }
 
 .slogan {
-  color: #F4D03F;
+  color: #fcd116;
   font-family: "Alfa Slab One", Helvetica, Sans-serif;
   padding: 20px 0px 20px 0px;
   font-size: 28px;
@@ -43,7 +43,7 @@
 }
 
 .links a {
-  color: #58D68D;
+  color: #1abc9c;
   font-size: 25px;
   font-family: "Bungee", Helvetica, Sans-serif;
   border-bottom: 1px solid #dfdfdf;
@@ -84,6 +84,15 @@
 
 .modal-body {
   font-family: "Arvo", Helvetica, sans-serif;
+  background-color: #1abc9c;
+}
+
+.modal-header {
+  background-color: #1abc9c;
+}
+
+.modal-footer {
+  background-color: #1abc9c;
 }
 
 header {

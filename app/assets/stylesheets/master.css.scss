@@ -12,18 +12,17 @@
 }
 
 .circle {
-    font-weight:bold;
-    font-style: italic;
+    font-family:"Bungee", Helvetica, sans-serif;
     position: relative;
     border-radius: 100%;
     background: #ff2247;
     border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin: 10px 10px;
     text-align: center;
-    color: #FFF;
-    font-size: 10px;
+    color: #F4D03F;
+    font-size: 20px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -34,7 +33,8 @@
 .slogan {
   color: #F4D03F;
   font-family: "Alfa Slab One", Helvetica, Sans-serif;
-  padding-top: 26px;
+  padding: 20px 0px 20px 0px;
+  font-size: 28px;
 }
 
 .links {
@@ -70,6 +70,15 @@
   text-decoration:none;
 }
 
+.modal {
+  font-family: "Bungee", Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: #58D68D;
+}
+
+
+
 header {
   border-top: 9px solid #222222;
 }
@@ -88,6 +97,10 @@ h2 {
   color: #ff2247;
 }
 
+h2 span {
+  color: #b2d8d8;
+}
+
 h3 {
   font-family: "Pacifico", Helvetica, sans-serif;
   color: #ff2247;
@@ -97,4 +110,8 @@ p {
   font-family: "Arvo", Helvetica, sans-serif;
   color: #66b2b2;
   font-size: 24px;
+}
+
+::selection {
+  background-color: #b2d8d8;
 }

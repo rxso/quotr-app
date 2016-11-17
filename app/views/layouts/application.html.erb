@@ -18,12 +18,13 @@
       </div>
       <% end %>
     </div>
-    <div class="col-xs-4 slogan">
+    <div class="col-md-4 hidden-xs slogan">
       Quotes to Make You Think About the World
     </div>
     <div class="col-xs-5 links">
       <!-- Button trigger modal -->
       <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+      &nbsp; &nbsp;
       <%= link_to 'About', about_path %>
     </div>
   </header>
@@ -38,12 +39,13 @@
          </div>
          <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-             <%= f.input :saying %>
-             <%= f.input :author %>
+             <%= f.input :saying, label: "Add A Bit of Wisdom Min. 50 Characters" %>
+             <br />
+             <%= f.input :author, label: "Tell the World Who Said It" %>
            </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <%= f.submit 'Quote Me!', class: 'btn btn-success' %>
+            <%= f.submit 'Quote Me!', class: 'btn btn-danger' %>
           </div>
           <% end %>
          </div>
@@ -67,11 +69,11 @@
 
 <footer class="footer">
       <div class="container">
-        <div class="col-xs-6">
+        <div class="col-xs-12 col-sm-6">
           <%= link_to "Next Quote", root_path, class: 'next-quote' %>
         </div>
-        <div class="col-xs-6 footer-blurb">
-          Built by <a href="https://github.com/rxso"> RXSO </a><br / />
+        <div class="col-xs-12 col-sm-6 footer-blurb">
+          A <a href="http://www.firehoseproject.com">Firehose</a> Product Built By <a href="https://github.com/rxso"> RXSO </a><br / />
         </div>
       </div>
 </footer>

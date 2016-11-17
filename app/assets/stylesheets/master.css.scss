@@ -7,6 +7,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html body {
+background-color: #ebe8df;
+}
+
 .clear {
   clear:both;
 }
@@ -16,7 +20,6 @@
     position: relative;
     border-radius: 100%;
     background: #ff2247;
-    border: 1px solid #F7F7F7;
     width: 100px;
     height: 100px;
     margin: 10px 10px;
@@ -43,7 +46,7 @@
 }
 
 .links a {
-  color: #1abc9c;
+  color: #43cd80;
   font-size: 25px;
   font-family: "Bungee", Helvetica, Sans-serif;
   border-bottom: 1px solid #dfdfdf;
@@ -84,19 +87,19 @@
 
 .modal-body {
   font-family: "Arvo", Helvetica, sans-serif;
-  background-color: #1abc9c;
+  background-color: #E0EEEE
 }
 
 .modal-header {
-  background-color: #1abc9c;
+  background-color: #E0EEEE;
 }
 
 .modal-footer {
-  background-color: #1abc9c;
+  background-color: #E0EEEE;
 }
 
 header {
-  border-top: 9px solid #222222;
+  border-top: 9px solid #66b2b2;
 }
 
 hr {
